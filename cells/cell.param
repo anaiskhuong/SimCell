@@ -1,0 +1,21 @@
+5000 480 20 1000
+-9 1 0 0
+0.10 0.02 1.0 0.04 20.0 0.0 0.99
+
+line 1 = cycles
+	cycles: number of cycles between start and final collection periods
+
+line 2 = bumping sticking bolting fleeing
+	bumping: 0 = off, 1 = on (-ve = turning = contact inhibition)
+	hooking: 0 = off, 1 = all, 2 = RR+GG, 3 = RR, 4 = GG, 5 = RG (-ve = memory)
+	bolting: 0 = off, 1 = green, 2 = red, 3 = both: faster
+	fleeing: 0 = off, 1 = green, 2 = red, 3 = both: more persistent
+
+line 3 = wild pull fast duck dive unhook decay
+	wild: 0.5  random kick at cell level (-ve = R|G split)
+	pull: 1.0  directed kick to leader
+	fast: 2.0  speed factor after panic (2=twice <pull>: ie double speed)
+	duck: 0.01 chance of changing the leader
+	dive: 0.5  dodge factor after panic (0.5=half <duck>: ie double persistence)
+	unhook: 0.0001 chance to unhook any pair
+	decay: rate of memory decay (-ve = turn off leader inhibition (flow))

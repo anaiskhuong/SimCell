@@ -1,0 +1,13 @@
+CELL
+	  0,    1,    1,    0,    0,    0,    0,    0,    0,    0,    0,  	// 0 types (type for each level), -ve = wire
+       	1000,   30,    3,    0,    0,    0,    0,    0,    0,    0,    0,  	// 1 sizes (diameter = []/10, grid = size*2)
+	  0,   35,   12,    0,    0,    0,    0,    0,    0,    0,    0,  	// 2 bumps (11 = i-->i+2 in alpha)
+	  0,    0,    1,    0,    0,    0,    0,    0,    0,    0,    0,  	// 3 links
+	  0,    0,   -1,    0,    0,    0,    0,    0,    0,    0,    0,  	// 4 chain (N=linear, -N=circular), N = valance
+	  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,  	// 5 move kick (use []/100)
+	  5,    1,    0,    0,    0,    0,    0,    0,    0,    0,    0,  	// 6 keep (use 1-[]/100 on children)
+	  0,    0,    5,    0,    0,    0,    0,    0,    0,    0,    0,  	// 7 bond 
+	  0,  100,  100,    0,    0,    0,    0,    0,    0,    0,    0,  	// 8 bump kick (use []/100)
+	  0,   30,  100,    0,    0,    0,    0,    0,    0,    0,    0,  	// 9 bump kick (use []/1000)
+	  0,    7,   21,    0,    0,    0,    0,    0,    0,    0,    0,  	// 10 adhesion (use []/1000) 1:homo 2:hetero
+	  0,   47,   84,    0,    0,    0,    0,    0,    0,    0,    0,  	// 11 CIL (use []/100) prob 1:homo 2:hetero
