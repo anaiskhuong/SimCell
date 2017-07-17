@@ -16,6 +16,6 @@ line 3 = wild pull fast duck dive unhook decay
 	pull: 1.0  directed kick to leader
 	fast: 2.0  speed factor after panic (2=twice <pull>: ie double speed)
 	duck: 0.01 chance of changing the leader
-	dive: 0.5  dodge factor after panic (0.5=half <duck>: ie double persistence)
+	dive: 0.5  dodge factor after panic (2=half <duck>: ie double persistence)
 	unhook: 0.0001 chance to unhook any pair
 	decay: rate of memory decay (-ve = turn off leader inhibition (flow))
